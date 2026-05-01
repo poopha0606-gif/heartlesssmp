@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEARTLESS SMP</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    border-bottom: 1px solid #222;
+}
+
+header h1 span {
+    color: red;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: bold;
+}
+
+nav a.active {
+    color: white;
+    border-bottom: 2px solid red;
+}
+
+/* HERO */
+.hero {
+    padding: 50px 20px;
+}
+
+.logo-box {
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-shadow: 0 0 30px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+.hero p {
+    color: red;
+    margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: red;
+    box-shadow: 0 0 15px red;
+}
+
+/* DISCORD BUTTON */
+.discord {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: #5865F2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.discord:hover {
+    box-shadow: 0 0 20px #5865F2;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>SERVER <span>HEARTLESS SMP</span></h1>
+    <nav>
+        <a href="#" class="active">HOME</a>
+        <a href="#">WIKI</a>
+        <a href="#">DONATE</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="logo-box">
+        <img src="logo.png" alt="logo">
+    </div>
+
+    <h2>HEARTLESS SMP</h2>
+    <p>STRENGTH SMP + LIFESTEAL เซิร์ฟเวอร์สุดเดือด</p>
+
+    <!-- ปุ่ม Discord -->
+    <a href="https://discord.gg/MFNjvKmut" target="_blank" class="discord">
+        JOIN DISCORD
+    </a>
+
+    <!-- ปุ่ม Whitelist -->
+    <a href="https://discord.gg/MFNjvKmut" target="_blank" class="btn">
+        WHITELIST NOW!
+    </a>
+</section>
+
+</body>
+</html>
